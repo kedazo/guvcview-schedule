@@ -92,7 +92,11 @@ int initGlobals (struct GLOBAL *global)
 	global->vidfile=NULL; /*vid filename passed through argument options with -n */
 	global->Capture_time=0; /*vid capture time passed through argument options with -t */
 	global->lprofile=0; /* flag for -l command line option*/
-	
+
+    global->sched_timer_id=0;
+    global->schedTime=0;
+    global->schedTimeout=0;
+
 	/** try to set video codec default to mpeg4*/
 	setVcodecVal ();
 	int vcodec = get_list_vcodec_index(AV_CODEC_ID_MPEG4);

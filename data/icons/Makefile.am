@@ -6,6 +6,7 @@ icons_DATA = \
 		image_controls.png\
 		video_controls.png\
 		audio_controls.png\
+		clock.png\
 		close.png
 
 

@@ -13,6 +13,7 @@ src/image_format.c
 src/menubar.c
 src/options.c
 src/osd.c
+src/schedule_tab.c
 src/timers.c
 src/v4l2_controls.c
 src/v4l2_devices.c

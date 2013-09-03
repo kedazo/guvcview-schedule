@@ -130,6 +130,10 @@ struct GLOBAL
 	int r_ind;             //read  frame index
 	int default_action;    // 0 for taking picture, 1 for video
 
+    guint sched_timer_id;  // the timer ID of the scheduler
+    guint schedTimeout;    // the remaining seconds of the next scheduled recording
+    guint schedTime;       // the total seconds to the next scheduled recording
+
 	float DispFps;         //fps value
 
     gboolean no_display;   //flag if guvcview will present the gui or not.

@@ -80,6 +80,8 @@ guvcview_SOURCES = \
 	pulse_audio.c \
 	quant.c \
 	readYUV.c \
+	schedule_tab.c \
+	schedule_tab.h \
 	sound.h \
 	sound.c \
 	snd_devices.h \

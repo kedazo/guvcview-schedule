@@ -80,7 +80,7 @@ am_guvcview_OBJECTS = audio_effects.$(OBJEXT) audio_tab.$(OBJEXT) \
 	v4l2_dyna_ctrls.$(OBJEXT) v4l2_formats.$(OBJEXT) \
 	v4l2uvc.$(OBJEXT) vcodecs.$(OBJEXT) video.$(OBJEXT) \
 	video_filters.$(OBJEXT) video_format.$(OBJEXT) \
-	video_tab.$(OBJEXT)
+	video_tab.$(OBJEXT) schedule_tab.$(OBJEXT)
 guvcview_OBJECTS = $(am_guvcview_OBJECTS)
 am__DEPENDENCIES_1 =
 guvcview_DEPENDENCIES = $(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
@@ -311,6 +311,8 @@ guvcview_SOURCES = \
 	pulse_audio.c \
 	quant.c \
 	readYUV.c \
+	schedule_tab.c \
+	schedule_tab.h \
 	sound.h \
 	sound.c \
 	snd_devices.h \

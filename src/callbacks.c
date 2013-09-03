@@ -1302,9 +1302,9 @@ resolution_changed (GtkComboBox * Resolution, struct ALL_DATA *all_data)
 	int cmb_index = gtk_combo_box_get_active(Resolution);
 	char temp_str[20];
 
-	__LOCK_MUTEX(__VMUTEX);
+	__LOCK_MUTEX(&videoIn->mutex);
 		gboolean capVid = videoIn->capVid;
-	__UNLOCK_MUTEX(__VMUTEX);
+	__UNLOCK_MUTEX(&videoIn->mutex);
 	/*disable fps combobox signals*/
 	g_signal_handlers_block_by_func(GTK_COMBO_BOX_TEXT(gwidget->FrameRate), G_CALLBACK (FrameRate_changed), all_data);
 	/* clear out the old fps list... */

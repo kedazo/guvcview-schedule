@@ -229,6 +229,7 @@ icons_DATA = \
 		image_controls.png\
 		video_controls.png\
 		audio_controls.png\
+		clock.png\
 		close.png
 
 gtk_update_icon_cache = gtk-update-icon-cache -f -t $(datadir)/pixmaps/guvcview/

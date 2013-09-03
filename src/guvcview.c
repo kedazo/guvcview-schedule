@@ -61,6 +61,7 @@
 #include "menubar.h"
 #include "video_tab.h"
 #include "audio_tab.h"
+#include "schedule_tab.h"
 #include "timers.h"
 
 #define __AMUTEX &pdata->mutex
@@ -614,6 +615,9 @@ int main(int argc, char *argv[])
 
             /*-------------------------- Audio Tab --------------------------------*/
             audio_tab (&all_data);
+
+            /*------------------------- Schedule Tab ------------------------------*/
+            schedule_tab (&all_data);
         } /*end of control_only exclusion*/
 
 		gwidget->status_bar = gtk_statusbar_new();

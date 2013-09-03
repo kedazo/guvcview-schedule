@@ -4,9 +4,8 @@
 #           Paulo Assis <pj.assis@gmail.com>                                    #
 #           Nobuhiro Iwamatsu <iwamatsu@nigauri.org>                            #
 #                             Add UYVY color support(Macbook iSight)            #
-#           George Sedov <radist.morse@gmail.com>                               #
-#                             Threaded encoding                                 #
-#                             default action selector for Webcam button         #
+#           David Kedves <kedazo@gmail.com>                                     #
+#                             Added schedule support                            #
 #                                                                               #
 # This program is free software; you can redistribute it and/or modify          #
 # it under the terms of the GNU General Public License as published by          #
@@ -23,76 +22,11 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA     #
 #                                                                               #
 ********************************************************************************/
+#ifndef AUDIO_TAB_H
+#define AUDIO_TAB_H
 
-#ifndef GUVCVIEW_H
-#define GUVCVIEW_H
-
-#include "v4l2uvc.h"
-#include "sound.h"
-#include "autofocus.h"
-#include "video_format.h"
-
-/* Must set this as global so they */
-/* can be set from any callback.   */
-
-struct GWIDGET
-{
-	/* The main window*/
-	GtkWidget *mainwin;
-	/* A restart Dialog */
-	GtkWidget *restartdialog;
-	/*Paned containers*/
-	GtkWidget *maintable;
-	GtkWidget *boxh;
-
-	//group list for menu video codecs
-	GSList *vgroup;
-	//group list for menu audio codecs
-	GSList *agroup;
-	
-	//menu top widgets
-	GtkWidget *menu_photo_top;
-	GtkWidget *menu_video_top;
-	
-	GtkWidget *status_bar;
-
-	GtkWidget *label_SndAPI;
-	GtkWidget *SndAPI;
-	GtkWidget *SndEnable;
-	GtkWidget *SndSampleRate;
-	GtkWidget *SndDevice;
-	GtkWidget *SndNumChan;
-	GtkWidget *SndComp;
-	/*must be called from main loop if capture timer enabled*/
-	GtkWidget *ImageType;
-	GtkWidget *CapImageButt;
-	GtkWidget *CapVidButt;
-	GtkWidget *Resolution;
-	GtkWidget *InpType;
-	GtkWidget *FrameRate;
-	GtkWidget *Devices;
-	GtkWidget *jpeg_comp;
-	GtkWidget *quitButton;
-
-    GtkWidget *schedTimeIn;
-    GtkWidget *schedLengthIn;
-
-	gboolean vid_widget_state;
-	int status_warning_id;
-};
-
-struct ALL_DATA
-{
-	struct paRecordData *pdata;
-	struct GLOBAL *global;
-	struct focusData *AFdata;
-	struct vdIn *videoIn;
-	struct VideoFormatData *videoF;
-	struct GWIDGET *gwidget;
-	struct VidState *s;
-	__THREAD_TYPE video_thread;
-	__THREAD_TYPE audio_thread;
-	__THREAD_TYPE IO_thread;
-};
+#include "guvcview.h"
+//------------------------- Schedule Tab ---------------------------------
+void schedule_tab(struct ALL_DATA *all_data);
 
 #endif

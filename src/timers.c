@@ -70,7 +70,6 @@ timer_callback(gpointer data)
         capture_vid(NULL, all_data);
     }
     
-    global->Capture_time=0;
     //if exit_on_close then shutdown
     if(global->exit_on_close)
         shutd (0, data);
