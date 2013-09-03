@@ -1,0 +1,18 @@
+Source: guvcview
+Section: devel
+Priority: extra
+Maintainer: David Kedves <kedazo@gmail.com>
+Build-Depends: debhelper (>= 9), intltool, autotools-dev, libsdl1.2-dev,
+               libgtk-3-dev, libpng-dev, libtwolame-dev, libavcodec-dev,
+               libv4l-dev, libudev-dev, portaudio19-dev
+Standards-Version: 3.9.5
+Homepage: http://guvcview.sourceforge.net/
+
+Package: guvcview
+Section: graphics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GTK+ base UVC Viewer
+ guvcview is a simple GTK+ interface for capturing and viewing video from
+ devices supported by the Linux UVC driver.
+

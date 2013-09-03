@@ -1,0 +1,47 @@
+guvcview (1.7.1-1ubuntu7) raring; urgency=low
+
+  * Team upload.
+  * raring packaging
+
+ -- David Kedves <kedazo@gmail.com>  Fri, 30 Aug 2013 20:48:59 +0200
+
+guvcview (1.7.1-1ubuntu6) quantal; urgency=low
+
+  * Team upload.
+  * quantal packaging
+
+ -- David Kedves <kedazo@gmail.com>  Fri, 30 Aug 2013 20:48:51 +0200
+
+guvcview (1.7.1-1ubuntu5) precise; urgency=low
+
+  * Team upload.
+  * precise packaging
+
+ -- David Kedves <kedazo@gmail.com>  Fri, 30 Aug 2013 20:48:39 +0200
+
+guvcview (1.7.1-1ubuntu4) raring; urgency=low
+
+  * Team upload.
+  * raring packaging
+
+ -- David Kedves <kedazo@gmail.com>  Fri, 30 Aug 2013 17:09:10 +0200
+
+guvcview (1.7.1-1ubuntu3) quantal; urgency=low
+
+  * Team upload.
+  * quantal packaging
+
+ -- David Kedves <kedazo@gmail.com>  Fri, 30 Aug 2013 17:09:01 +0200
+
+guvcview (1.7.1-1ubuntu2) precise; urgency=low
+
+  * Team upload.
+  * precise packaging
+
+ -- David Kedves <kedazo@gmail.com>  Fri, 30 Aug 2013 17:08:53 +0200
+
+guvcview (1.7.1-1ubuntu1) UNRELEASED; urgency=low
+
+  * Initial packaging for Ubuntu
+
+ -- David Kedves <kedazo@gmail.com>  Fri, 23 Aug 2013 14:49:39 +0200
