@@ -1,0 +1,1093 @@
+# Turkish translation for guvcview
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the guvcview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: guvcview\n"
+"Report-Msgid-Bugs-To: pj.assis@gmail.com\n"
+"POT-Creation-Date: 2013-07-16 12:53+0000\n"
+"PO-Revision-Date: 2013-04-19 19:50+0000\n"
+"Last-Translator: Volkan Gezer <Unknown>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 13:32+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+"Language: tr\n"
+
+#: ../data/guvcview.desktop.in.in.h:1
+msgid "guvcview"
+msgstr "guvcview"
+
+#: ../data/guvcview.desktop.in.in.h:2
+msgid "GTK UVC video viewer"
+msgstr "GTK UVC video görüntüleyici"
+
+#: ../data/guvcview.desktop.in.in.h:3
+msgid "A video viewer and capturer for the linux uvc driver"
+msgstr "Linux uvc sürücüsü için video görüntüleyici ve yakalayıcı"
+
+#: ../src/acodecs.c:59
+msgid "PCM - uncompressed (16 bit)"
+msgstr "PCM - sıkıştırılmamış (16 bit)"
+
+#: ../src/acodecs.c:76
+msgid "MPEG2 - (lavc)"
+msgstr "MPEG2 - (lavc)"
+
+#: ../src/acodecs.c:93
+msgid "MP3 - (lavc)"
+msgstr "MP3 - (lavc)"
+
+#: ../src/acodecs.c:110
+msgid "Dolby AC3 - (lavc)"
+msgstr "Dolby AC3 - (lavc)"
+
+#: ../src/acodecs.c:127
+msgid "ACC Low - (faac)"
+msgstr "ACC Low - (faac)"
+
+#: ../src/acodecs.c:144
+msgid "Vorbis"
+msgstr "Vorbis"
+
+#: ../src/audio_tab.c:80
+msgid "Audio"
+msgstr "Ses"
+
+#: ../src/audio_tab.c:98
+msgid " Sound"
+msgstr " Ses"
+
+#. VU meter on the image (OSD)
+#: ../src/audio_tab.c:109
+msgid " Show VU meter"
+msgstr " VU Metreyi Göster"
+
+#: ../src/audio_tab.c:121
+msgid "Audio API:"
+msgstr "SES API'yı:"
+
+#: ../src/audio_tab.c:132
+msgid "PORTAUDIO"
+msgstr "PORTAUDIO"
+
+#: ../src/audio_tab.c:133
+msgid "PULSEAUDIO"
+msgstr "PULSEAUDIO"
+
+#: ../src/audio_tab.c:149 ../src/audio_tab.c:172
+msgid "Input Device:"
+msgstr "Girdi Aygıtı:"
+
+#: ../src/audio_tab.c:182 ../src/audio_tab.c:214
+msgid "Dev. Default"
+msgstr "Aygıt Vars."
+
+#: ../src/audio_tab.c:204
+msgid "Sample Rate:"
+msgstr "Örnekleme Oranı:"
+
+#: ../src/audio_tab.c:215
+msgid "1 - mono"
+msgstr "1 - mono"
+
+#: ../src/audio_tab.c:216
+msgid "2 - stereo"
+msgstr "2 - stereo"
+
+#: ../src/audio_tab.c:251
+msgid "Channels:"
+msgstr "Kanallar:"
+
+#: ../src/audio_tab.c:302
+msgid "---- Audio Effects ----"
+msgstr "---- Ses Efektleri ----"
+
+#. Echo
+#: ../src/audio_tab.c:321
+msgid " Echo"
+msgstr " Göster"
+
+#. FUZZ
+#: ../src/audio_tab.c:332
+msgid " Fuzz"
+msgstr " Bulanma"
+
+#. Reverb
+#: ../src/audio_tab.c:344
+msgid " Reverb"
+msgstr " Yankı"
+
+#. WahWah
+#: ../src/audio_tab.c:356
+msgid " WahWah"
+msgstr " WahWah"
+
+#. Ducky
+#: ../src/audio_tab.c:368
+msgid " Ducky"
+msgstr " Ördek"
+
+#: ../src/callbacks.c:108
+msgid "Error"
+msgstr "Hata"
+
+#: ../src/callbacks.c:132
+msgid ""
+"\n"
+"You have more than one video device installed.\n"
+"Do you want to try another one ?\n"
+msgstr ""
+"\n"
+"Kurulu birden fazla video aygıtınız var.\n"
+"Bir diğerini denemek ister misiniz?\n"
+
+#. Devices
+#: ../src/callbacks.c:139 ../src/video_tab.c:103
+msgid "Device:"
+msgstr "Aygıt:"
+
+#: ../src/callbacks.c:271
+msgid "Save File"
+msgstr "Dosyayı Kaydet"
+
+#: ../src/callbacks.c:283
+msgid "File Format:"
+msgstr "Dosya Biçimi:"
+
+#: ../src/callbacks.c:454
+msgid "codec values"
+msgstr "çözücü değerleri"
+
+#: ../src/callbacks.c:465
+msgid ""
+"                              encoder fps:   \n"
+" (0 - use fps combobox value)"
+msgstr ""
+"                              kodlayıcı fps:   \n"
+" (0 - fps kutu değerini kullan)"
+
+#: ../src/callbacks.c:478
+msgid " monotonic pts"
+msgstr " tek düze puan"
+
+#. bit rate
+#: ../src/callbacks.c:485 ../src/callbacks.c:808
+msgid "bit rate:   "
+msgstr "bıt oranı:   "
+
+#: ../src/callbacks.c:498
+msgid "qmax:   "
+msgstr "qmax:   "
+
+#: ../src/callbacks.c:511
+msgid "qmin:   "
+msgstr "qmin:   "
+
+#: ../src/callbacks.c:524
+msgid "max. qdiff:   "
+msgstr "azami qdiff:   "
+
+#: ../src/callbacks.c:537
+msgid "dia size:   "
+msgstr "dia boyutu:   "
+
+#: ../src/callbacks.c:550
+msgid "pre dia size:   "
+msgstr "ön dia boyutu:   "
+
+#: ../src/callbacks.c:563
+msgid "pre me:   "
+msgstr "ön me:   "
+
+#: ../src/callbacks.c:576
+msgid "pre cmp:   "
+msgstr "ön cmp:   "
+
+#: ../src/callbacks.c:589
+msgid "cmp:   "
+msgstr "cmp:   "
+
+#: ../src/callbacks.c:602
+msgid "sub cmp:   "
+msgstr "alt cmp:   "
+
+#: ../src/callbacks.c:615
+msgid "last predictor count:   "
+msgstr "son öngörücü sayısı:   "
+
+#: ../src/callbacks.c:628
+msgid "gop size:   "
+msgstr "gop boyutu:   "
+
+#: ../src/callbacks.c:641
+msgid "qcompress:   "
+msgstr "qcompress:   "
+
+#: ../src/callbacks.c:654
+msgid "qblur:   "
+msgstr "qblur:   "
+
+#: ../src/callbacks.c:667
+msgid "subq:   "
+msgstr "subq:   "
+
+#: ../src/callbacks.c:680
+msgid "framerefs:   "
+msgstr "framerefs:   "
+
+#: ../src/callbacks.c:693
+msgid "me method:   "
+msgstr "me yöntemi:   "
+
+#: ../src/callbacks.c:706
+msgid "mb decision:   "
+msgstr "mb kararı:   "
+
+#: ../src/callbacks.c:719
+msgid "max B frames:   "
+msgstr "en yüks. B karesi:   "
+
+#: ../src/callbacks.c:732
+msgid "num threads:   "
+msgstr "işlem sayısı:   "
+
+#: ../src/callbacks.c:795
+msgid "audio codec values"
+msgstr "ses çözücü değerleri"
+
+#. sample format
+#: ../src/callbacks.c:822
+msgid "sample format:   "
+msgstr "örnek biçimi:   "
+
+#: ../src/callbacks.c:1250
+msgid "start new"
+msgstr "yeni başlat"
+
+#: ../src/callbacks.c:1253
+msgid "restart"
+msgstr "yeniden başlat"
+
+#: ../src/callbacks.c:1255
+msgid "new"
+msgstr "yeni"
+
+#: ../src/callbacks.c:1257
+msgid "cancel"
+msgstr "iptal"
+
+#: ../src/callbacks.c:1262
+msgid ""
+"launch new process or restart?.\n"
+"\n"
+msgstr ""
+"yeni süreç başlat veya yeniden başlat?\n"
+"\n"
+
+#: ../src/callbacks.c:1716 ../src/guvcview.c:537
+msgid "Cap. Image (I)"
+msgstr "Görüntü Yakala (I)"
+
+#. disable image controls
+#: ../src/callbacks.c:1727 ../src/guvcview.c:658 ../src/timers.c:101
+msgid "capturing photo to"
+msgstr "fotoğraf yakalanıyor"
+
+#: ../src/callbacks.c:1786 ../src/guvcview.c:547
+msgid "Cap. Video (V)"
+msgstr "Video Yakala (V)"
+
+#: ../src/callbacks.c:1812 ../src/guvcview.c:708
+msgid "capturing video to"
+msgstr "video yakalanıyor"
+
+#. vid capture enabled from start
+#: ../src/callbacks.c:1845 ../src/guvcview.c:542
+msgid "Stop Video (V)"
+msgstr "Videoyu Durdur (V)"
+
+#: ../src/callbacks.c:1901 ../src/menubar.c:66
+msgid "Save Profile"
+msgstr "Profili Kaydet"
+
+#: ../src/callbacks.c:1914 ../src/menubar.c:65
+msgid "Load Profile"
+msgstr "Profili Yükle"
+
+#: ../src/create_video.c:1016 ../src/guvcview.c:700
+msgid "Cap. Video"
+msgstr "Video Yakala"
+
+#: ../src/guvcview.c:279
+msgid "Guvcview Video Capture"
+msgstr "Guvcview Video Yakala"
+
+#: ../src/guvcview.c:291
+msgid "GUVCViewer Controls"
+msgstr "GUVCViewer Denetimleri"
+
+#. can't open device
+#: ../src/guvcview.c:336
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to open device"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"Aygıt açılamıyor"
+
+#: ../src/guvcview.c:337
+msgid ""
+"Please make sure the camera is connected\n"
+"and that the correct driver is installed."
+msgstr ""
+"Kameranızın bağlı ve doğru sürücülerinin\n"
+"yüklendiğinden emin olun."
+
+#. uvc extension controls OK, give warning and shutdown (called with --add_ctrls)
+#: ../src/guvcview.c:342
+msgid ""
+"Guvcview:\n"
+"\n"
+"UVC Extension controls"
+msgstr ""
+"Guvcview:\n"
+"\n"
+"UVC Uzantı denetimleri"
+
+#: ../src/guvcview.c:343
+msgid "Extension controls were added to the UVC driver"
+msgstr "Uzantı denetimleri UVC sürücüsüne eklendi"
+
+#. uvc extension controls error - EACCES (needs root user)
+#: ../src/guvcview.c:350
+msgid ""
+"Guvcview error:\n"
+"\n"
+"UVC Extension controls"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"UVC Uzantı denetimleri"
+
+#: ../src/guvcview.c:351
+msgid ""
+"An error occurred while adding extension\n"
+"controls to the UVC driver\n"
+"Make sure you run guvcview as root (or sudo)."
+msgstr ""
+"UVC sürücüsüne uzantı denetimleri eklenirken\n"
+"bir hata oluştu\n"
+"guvcview'i yönetici (veya sudo) ile çalıştırdığınızdan\n"
+"emin olun"
+
+#: ../src/guvcview.c:377 ../src/guvcview.c:455
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Can't set a valid video stream for guvcview"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"guvcview için geçerli video akışı ayarlanamıyor"
+
+#: ../src/guvcview.c:378 ../src/guvcview.c:456
+msgid ""
+"Make sure your device driver is v4l2 compliant\n"
+"and that it is properly installed."
+msgstr ""
+"Aygıt sürücünüzün v4l2 uyumlu olduğundan ve\n"
+"doğru bir şekilde yüklendiğinden emin olun."
+
+#: ../src/guvcview.c:400 ../src/guvcview.c:422
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to start with minimum setup"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"Asgari ayarlama başlatılamadı"
+
+#: ../src/guvcview.c:401 ../src/guvcview.c:423
+msgid "Please reconnect your camera."
+msgstr "Lütfen  kameranı tekrar bağla."
+
+#: ../src/guvcview.c:430
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Couldn't query device capabilities"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"Aygıt özellikleri sorgulanamadı"
+
+#: ../src/guvcview.c:431
+msgid "Make sure the device driver supports v4l2."
+msgstr "Aygıt sürücünüzün v4l2 desteklediğinden emin olun."
+
+#: ../src/guvcview.c:435
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Read method error"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"Okuma yöntemi hatası"
+
+#: ../src/guvcview.c:436
+msgid "Please try mmap instead (--capture_method=1)."
+msgstr "mmap deneyin (--capture_method=1)."
+
+#: ../src/guvcview.c:444
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to allocate Buffers"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"Tamponlar ayrılamıyor"
+
+#: ../src/guvcview.c:445
+msgid "Please try restarting your system."
+msgstr "Lütfen  sistemi tekrar başlatmayı dene."
+
+#: ../src/guvcview.c:490
+msgid "Image Controls"
+msgstr "Resim Denetimleri"
+
+#. image auto capture
+#: ../src/guvcview.c:533
+msgid "Stop Auto (I)"
+msgstr "Otomatik Durdur (I)"
+
+#: ../src/guvcview.c:644
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to create Video Thread"
+msgstr ""
+"Guvcview hatası:\n"
+"\n"
+"Video İş Parçacığı oluşturulamıyor"
+
+#: ../src/guvcview.c:645
+msgid "Please report it to http://developer.berlios.de/bugs/?group_id=8179"
+msgstr ""
+"Lütfen http://developer.berlios.de/bugs/?group_id=8179 adresine bildirin"
+
+#: ../src/img_controls.c:121
+msgid "Auto Focus (continuous)"
+msgstr "Otomatik Odakla (sürekli)"
+
+#: ../src/img_controls.c:122
+msgid "set Focus"
+msgstr "Odak ayarla"
+
+#: ../src/image_format.c:35
+msgid "Jpeg (jpg)"
+msgstr "Jpeg (jpg)"
+
+#: ../src/image_format.c:41
+msgid "Bitmap (Bmp)"
+msgstr "Bitmap (Bmp)"
+
+#: ../src/image_format.c:47
+msgid "Portable Network Graphics (Png)"
+msgstr "Taşınabilir Ağ Grafikleri (Png)"
+
+#: ../src/image_format.c:53
+msgid "Raw Image (raw)"
+msgstr "Ham Görüntü (raw)"
+
+#. controls menu
+#: ../src/menubar.c:64
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../src/menubar.c:67
+msgid "Hardware Defaults"
+msgstr "Donanım Varsayılanları"
+
+#: ../src/menubar.c:75
+msgid "Camera Button"
+msgstr "Kamera Düğmesi"
+
+#: ../src/menubar.c:79
+msgid "Capture Image"
+msgstr "Resim Yakala"
+
+#: ../src/menubar.c:84
+msgid "Capture Video"
+msgstr "Video Yakala"
+
+#. video menu
+#: ../src/menubar.c:144 ../src/video_tab.c:87
+msgid "Video"
+msgstr "Görüntü"
+
+#: ../src/menubar.c:145 ../src/menubar.c:231
+msgid "File"
+msgstr "Dosya"
+
+#: ../src/menubar.c:146 ../src/menubar.c:232
+msgid "Increment Filename"
+msgstr "Dosya Adını Arttır"
+
+#: ../src/menubar.c:164
+msgid "Video Codec"
+msgstr "Video Kodlayıcısı"
+
+#: ../src/menubar.c:187
+msgid "Video Codec Properties"
+msgstr "Video Kodlayıcı Özellikleri"
+
+#: ../src/menubar.c:194
+msgid "Audio Codec"
+msgstr "Ses Kodlayıcı"
+
+#: ../src/menubar.c:215
+msgid "Audio Codec Properties"
+msgstr "Ses Kodlayıcı Özellikleri"
+
+#. photo menu
+#: ../src/menubar.c:230
+msgid "Photo"
+msgstr "Fotoğraf"
+
+#: ../src/options.c:752
+msgid "Prints version"
+msgstr "Sürümü yazdırır"
+
+#: ../src/options.c:753
+msgid "Displays debug information"
+msgstr "Hata ayıklama bilgisini görüntüler"
+
+#: ../src/options.c:754
+msgid "Video Device to use [default: /dev/video0]"
+msgstr "Kullanılacak Video Aygıtı [varsayılan: /dev/video0]"
+
+#: ../src/options.c:755
+msgid "Exit after adding UVC extension controls (needs root/sudo)"
+msgstr ""
+"UVC uzantı denetimlerini ekledikten sonra çık (yönetici/sudo gerektirir)"
+
+#: ../src/options.c:756
+msgid "Don't stream video (image controls only)"
+msgstr "Video'yu akış yapma (sadece resim denetimleri)"
+
+#: ../src/options.c:757
+msgid "Don't display a GUI"
+msgstr "Grafiksel Arayüz görüntüleme"
+
+#: ../src/options.c:758
+msgid "Capture method (1-mmap (default)  2-read)"
+msgstr "Yakalama yöntemi (1-mmap (varsayılan)  2-read)"
+
+#: ../src/options.c:759
+msgid "Configuration file"
+msgstr "Yapılandırma dosyası"
+
+#: ../src/options.c:760
+msgid "Hardware accelaration (enable(1) | disable(0))"
+msgstr "Donanım hızlandırma (enable(1) | disable(0))"
+
+#: ../src/options.c:761
+msgid ""
+"Pixel "
+"format(mjpg|jpeg|yuyv|yvyu|uyvy|yyuv|yu12|yv12|nv12|nv21|nv16|nv61|y41p|grey|"
+"y10b|y16 |s501|s505|s508|gbrg|grbg|ba81|rggb|bgr3|rgb3)"
+msgstr ""
+"Piksel "
+"biçimi(mjpg|jpeg|yuyv|yvyu|uyvy|yyuv|yu12|yv12|nv12|nv21|nv16|nv61|y41p|grey|"
+"y10b|y16 |s501|s505|s508|gbrg|grbg|ba81|rggb|bgr3|rgb3)"
+
+#: ../src/options.c:762
+msgid "Frame size, default: 640x480"
+msgstr "Çerçeve boyutu, varsayılan: 640x480"
+
+#: ../src/options.c:763
+msgid "Image File name"
+msgstr "Resim Dosya adı"
+
+#: ../src/options.c:764
+msgid "Image capture interval in seconds"
+msgstr "Resim yakalama aralığı (saniye)"
+
+#: ../src/options.c:765
+msgid "Number of Pictures to capture"
+msgstr "Yakalanacak Resim Sayısı"
+
+#: ../src/options.c:766
+msgid "Video File name (capture from start)"
+msgstr "Video Dosya adı (başlangıçtan yakala)"
+
+#: ../src/options.c:767
+msgid "Video capture time (in seconds)"
+msgstr "Video yakalama süresi (saniye)"
+
+#: ../src/options.c:768
+msgid "Exits guvcview after closing video"
+msgstr "Video kapatıldıktan sonra guvcview'den çıkar"
+
+#: ../src/options.c:769
+msgid "Number of initial frames to skip"
+msgstr "Başlangıçta atlanacak kare sayısı"
+
+#: ../src/options.c:770
+msgid "Show FPS value (enable(1) | disable (0))"
+msgstr "FPS değerini göster (enable(1) | disable (0))"
+
+#: ../src/options.c:771
+msgid "Load Profile at start"
+msgstr "Başlangıçta Profil Yükle"
+
+#: ../src/options.c:777
+msgid "- local options"
+msgstr "- yerel seçenekler"
+
+#. gdk_threads_enter();
+#: ../src/timers.c:119
+msgid "Cap. Image"
+msgstr "Resim Yakala"
+
+#: ../src/timers.c:217
+msgid "Guvcview Warning:"
+msgstr "Guvcview Uyarısı:"
+
+#: ../src/timers.c:217
+msgid "Not enough free space left on disk"
+msgstr "Diskte yeterli boş yer yok"
+
+#: ../src/v4l2_controls.c:711
+msgid "Left"
+msgstr "Sol"
+
+#: ../src/v4l2_controls.c:712
+msgid "Right"
+msgstr "Sağ"
+
+#: ../src/v4l2_controls.c:716
+msgid "Down"
+msgstr "Aşağı"
+
+#: ../src/v4l2_controls.c:717
+msgid "Up"
+msgstr "Yukarı"
+
+#: ../src/v4l2_controls.c:762
+msgid "Off"
+msgstr "Kapalı"
+
+#: ../src/v4l2_controls.c:762
+msgid "On"
+msgstr "Açık"
+
+#: ../src/v4l2_controls.c:762
+msgid "Blinking"
+msgstr "Yanıp Sönme"
+
+#: ../src/v4l2_controls.c:762
+msgid "Auto"
+msgstr "Otomatik"
+
+#. turn it into a menu control
+#: ../src/v4l2_controls.c:813
+msgid "8 bit"
+msgstr "8 bit"
+
+#: ../src/v4l2_controls.c:813
+msgid "12 bit"
+msgstr "12 bit"
+
+#: ../src/v4l2_dyna_ctrls.c:96
+msgid "Pan (relative)"
+msgstr "Kaydır (bağıl)"
+
+#: ../src/v4l2_dyna_ctrls.c:109
+msgid "Tilt (relative)"
+msgstr "Eğ (bağıl)"
+
+#: ../src/v4l2_dyna_ctrls.c:122
+msgid "Pan Reset"
+msgstr "Kaydırmayı Sıfırla"
+
+#: ../src/v4l2_dyna_ctrls.c:135
+msgid "Tilt Reset"
+msgstr "Eğme Sıfırla"
+
+#: ../src/v4l2_dyna_ctrls.c:148
+msgid "Focus (absolute)"
+msgstr "Odaklan (kesin)"
+
+#: ../src/v4l2_dyna_ctrls.c:161
+msgid "LED1 Mode"
+msgstr "LED1 Kipi"
+
+#: ../src/v4l2_dyna_ctrls.c:174
+msgid "LED1 Frequency"
+msgstr "LED1 Frekansı"
+
+#: ../src/v4l2_dyna_ctrls.c:187
+msgid "Disable video processing"
+msgstr "Video işlemeyi devre dışı bırak"
+
+#: ../src/v4l2_dyna_ctrls.c:200
+msgid "Raw bits per pixel"
+msgstr "Piksel başına ham bit"
+
+#. needed only for language files (not used)
+#. V4L2 control strings
+#: ../src/v4l2uvc.c:56
+msgid "User Controls"
+msgstr "Kullanıcı Denetimleri"
+
+#: ../src/v4l2uvc.c:57
+msgid "Brightness"
+msgstr "Parlaklık"
+
+#: ../src/v4l2uvc.c:58
+msgid "Contrast"
+msgstr "Karşıtlık"
+
+#: ../src/v4l2uvc.c:59
+msgid "Hue"
+msgstr "Renk"
+
+#: ../src/v4l2uvc.c:60
+msgid "Saturation"
+msgstr "Doygunluk"
+
+#: ../src/v4l2uvc.c:61
+msgid "Sharpness"
+msgstr "Keskinlik"
+
+#: ../src/v4l2uvc.c:62
+msgid "Gamma"
+msgstr "Kontras derecesi (gama)"
+
+#: ../src/v4l2uvc.c:63
+msgid "Backlight Compensation"
+msgstr "Arka Işık Desteği"
+
+#: ../src/v4l2uvc.c:64
+msgid "Power Line Frequency"
+msgstr "Güç Hattı Frekansı"
+
+#: ../src/v4l2uvc.c:65
+msgid "Hue, Automatic"
+msgstr "Renk, Otomatik"
+
+#: ../src/v4l2uvc.c:66
+msgid "Focus, Auto"
+msgstr "Odak, Otomatik"
+
+#: ../src/v4l2uvc.c:67
+msgid "Manual Mode"
+msgstr "El Kipi"
+
+#: ../src/v4l2uvc.c:68
+msgid "Auto Mode"
+msgstr "Otomatik Kip"
+
+#: ../src/v4l2uvc.c:69
+msgid "Shutter Priority Mode"
+msgstr "Kapak Öncelik Kipi"
+
+#: ../src/v4l2uvc.c:70
+msgid "Aperture Priority Mode"
+msgstr "Açıklık Öncelik Kipi"
+
+#: ../src/v4l2uvc.c:71
+msgid "Black Level"
+msgstr "Siyah Seviyesi"
+
+#: ../src/v4l2uvc.c:72
+msgid "White Balance, Automatic"
+msgstr "Beyaz Dengesi, Otomatik"
+
+#: ../src/v4l2uvc.c:73
+msgid "Do White Balance"
+msgstr "Beyaz Dengesi Yap"
+
+#: ../src/v4l2uvc.c:74
+msgid "Red Balance"
+msgstr "Kırmızı Dengesi"
+
+#: ../src/v4l2uvc.c:75
+msgid "Blue Balance"
+msgstr "Mavi Dengesi"
+
+#: ../src/v4l2uvc.c:76
+msgid "Exposure"
+msgstr "Pozlandırma"
+
+#: ../src/v4l2uvc.c:77
+msgid "Gain, Automatic"
+msgstr "Kazanç, Otomatik"
+
+#: ../src/v4l2uvc.c:78
+msgid "Gain"
+msgstr "Kazanç"
+
+#: ../src/v4l2uvc.c:79
+msgid "Horizontal Flip"
+msgstr "Yatay Çevir"
+
+#: ../src/v4l2uvc.c:80
+msgid "Vertical Flip"
+msgstr "Dikey Çevir"
+
+#: ../src/v4l2uvc.c:81
+msgid "Horizontal Center"
+msgstr "Yatay Merkez"
+
+#: ../src/v4l2uvc.c:82
+msgid "Vertical Center"
+msgstr "Dikey Merkez"
+
+#: ../src/v4l2uvc.c:83
+msgid "Chroma AGC"
+msgstr "Kroma Otomatik Kazanç Kontrolü (AGC)"
+
+#: ../src/v4l2uvc.c:84
+msgid "Color Killer"
+msgstr "Renk Öldürücü"
+
+#: ../src/v4l2uvc.c:85
+msgid "Color Effects"
+msgstr "Renk Efektleri"
+
+#. CAMERA CLASS control strings
+#: ../src/v4l2uvc.c:88
+msgid "Camera Controls"
+msgstr "Kamera Denetimleri"
+
+#: ../src/v4l2uvc.c:89
+msgid "Auto Exposure"
+msgstr "Otomatik Pozlandırma"
+
+#: ../src/v4l2uvc.c:90
+msgid "Exposure Time, Absolute"
+msgstr "Pozlandırma Süresü, Kesin"
+
+#: ../src/v4l2uvc.c:91
+msgid "Exposure, Dynamic Framerate"
+msgstr "Pozlandırma, Dinamik Kare Oranı"
+
+#: ../src/v4l2uvc.c:92
+msgid "Pan, Relative"
+msgstr "Kaydırma, Bağıl"
+
+#: ../src/v4l2uvc.c:93
+msgid "Tilt, Relative"
+msgstr "Eğme, Bağıl"
+
+#: ../src/v4l2uvc.c:94
+msgid "Pan, Reset"
+msgstr "Kaydırma, Sıfırla"
+
+#: ../src/v4l2uvc.c:95
+msgid "Tilt, Reset"
+msgstr "Eğme, Sıfırla"
+
+#: ../src/v4l2uvc.c:96
+msgid "Pan, Absolute"
+msgstr "Kaydırma, Kesin"
+
+#: ../src/v4l2uvc.c:98
+msgid "Focus, Absolute"
+msgstr "Odaklama, Kesin"
+
+#: ../src/v4l2uvc.c:99
+msgid "Focus, Relative"
+msgstr "Odaklama, Bağıl"
+
+#: ../src/v4l2uvc.c:100
+msgid "Focus, Automatic"
+msgstr "Odaklama, Otomatik"
+
+#: ../src/v4l2uvc.c:101
+msgid "Zoom, Absolute"
+msgstr "Yakınlaştırma, Kesin"
+
+#: ../src/v4l2uvc.c:102
+msgid "Zoom, Relative"
+msgstr "Yakınlaştırma, Bağıl"
+
+#: ../src/v4l2uvc.c:103
+msgid "Zoom, Continuous"
+msgstr "Yakınlaştırma, Sürekli"
+
+#: ../src/v4l2uvc.c:104
+msgid "Privacy"
+msgstr "Gizlilik"
+
+#. UVC specific control strings
+#: ../src/v4l2uvc.c:107
+msgid "Exposure, Auto"
+msgstr "Pozlama, Otomatik"
+
+#: ../src/v4l2uvc.c:108
+msgid "Exposure, Auto Priority"
+msgstr "Pozlama, Otomatik Öncelik"
+
+#: ../src/v4l2uvc.c:109
+msgid "Exposure (Absolute)"
+msgstr "Pozlama (Kesin)"
+
+#: ../src/v4l2uvc.c:110
+msgid "White Balance Temperature, Auto"
+msgstr "Beyaz Denge Sıcaklığı, Otomatik"
+
+#: ../src/v4l2uvc.c:111
+msgid "White Balance Temperature"
+msgstr "Beyaz Dengesi Sıcaklığı"
+
+#: ../src/v4l2uvc.c:112
+msgid "White Balance Component, Auto"
+msgstr "Beyaz Denge Bileşeni, Otomatik"
+
+#: ../src/v4l2uvc.c:113
+msgid "White Balance Blue Component"
+msgstr "Beyaz Denge Mavi Bileşeni"
+
+#: ../src/v4l2uvc.c:114
+msgid "White Balance Red Component"
+msgstr "Beyaz Denge Kırmızı Bileşeni"
+
+#. libwebcam specific control strings
+#: ../src/v4l2uvc.c:117
+msgid "Focus"
+msgstr "Odaklama"
+
+#: ../src/v4l2uvc.c:118
+msgid "Focus (Absolute)"
+msgstr "Odaklama (Kesin)"
+
+#: ../src/vcodecs.c:63
+msgid "MJPG - compressed"
+msgstr "MJPG - sıkıştırılmış"
+
+#: ../src/vcodecs.c:99
+msgid "YUY2 - uncomp YUV"
+msgstr "YUY2 - sıkıştırılmamış YUV"
+
+#: ../src/vcodecs.c:135
+msgid "RGB - uncomp BMP"
+msgstr "RGB - sıkıştırılmamış BMP"
+
+#: ../src/vcodecs.c:171
+msgid "MPEG video 1"
+msgstr "MPEG video 1"
+
+#: ../src/vcodecs.c:207
+msgid "FLV1 - flash video 1"
+msgstr "FLV1 - flash video 1"
+
+#: ../src/vcodecs.c:243
+msgid "WMV1 - win. med. video 7"
+msgstr "WMV1 - win. med. video 7"
+
+#: ../src/vcodecs.c:279
+msgid "MPG2 - MPG2 format"
+msgstr "MPG2 - MPG2 biçimi"
+
+#: ../src/vcodecs.c:315
+msgid "MS MP4 V3"
+msgstr "MS MP4 V3"
+
+#: ../src/vcodecs.c:351
+msgid "MPEG4-ASP"
+msgstr "MPEG4-ASP"
+
+#: ../src/vcodecs.c:387
+msgid "MPEG4-AVC (H264)"
+msgstr "MPEG4-AVC (H264)"
+
+#: ../src/vcodecs.c:427
+msgid "VP8 (VP8)"
+msgstr "VP8 (VP8)"
+
+#: ../src/vcodecs.c:463
+msgid "Theora (ogg theora)"
+msgstr "Theora (ogg theora)"
+
+#: ../src/video_format.c:43
+msgid "AVI - avi format"
+msgstr "AVI - avi biçimi"
+
+#: ../src/video_format.c:52
+msgid "MKV - Matroska format"
+msgstr "MKV - Matroska biçimi"
+
+#: ../src/video_format.c:61
+msgid "WEBM - format"
+msgstr "WEBM - biçimi"
+
+#: ../src/video_tab.c:208
+msgid "Frame Rate:"
+msgstr "Kare Oranı:"
+
+#: ../src/video_tab.c:215
+msgid " Show"
+msgstr " Göster"
+
+#: ../src/video_tab.c:237
+msgid "Resolution:"
+msgstr "Çözünürlük:"
+
+#: ../src/video_tab.c:263
+msgid "Camera Output:"
+msgstr "Kamera Çıktısı:"
+
+#: ../src/video_tab.c:285
+msgid "Apply"
+msgstr "Uygula"
+
+#: ../src/video_tab.c:292
+msgid "Quality:"
+msgstr "Kalite:"
+
+#: ../src/video_tab.c:302
+msgid "---- Video Filters ----"
+msgstr "---- Video Filtreleri----"
+
+#. Mirror
+#: ../src/video_tab.c:321
+msgid " Mirror"
+msgstr " Ayna"
+
+#. Upturn
+#: ../src/video_tab.c:332
+msgid " Invert"
+msgstr " Tersine Çevir"
+
+#. Negate
+#: ../src/video_tab.c:343
+msgid " Negative"
+msgstr " Negatif"
+
+#. Mono
+#: ../src/video_tab.c:354
+msgid " Mono"
+msgstr " Mono"
+
+#. Pieces
+#: ../src/video_tab.c:366
+msgid " Pieces"
+msgstr " Parçalar"
+
+#. Particles
+#: ../src/video_tab.c:378
+msgid " Particles"
+msgstr " Tanecikler"

@@ -1,0 +1,1088 @@
+# Latvian translation for guvcview
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the guvcview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: guvcview\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-07-16 12:53+0000\n"
+"PO-Revision-Date: 2013-05-01 09:27+0000\n"
+"Last-Translator: tuxmaniack <Unknown>\n"
+"Language-Team: Latvian <lv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-07-22 13:32+0000\n"
+"X-Generator: Launchpad (build 16696)\n"
+
+#: ../data/guvcview.desktop.in.in.h:1
+msgid "guvcview"
+msgstr "guvcview"
+
+#: ../data/guvcview.desktop.in.in.h:2
+msgid "GTK UVC video viewer"
+msgstr "GTK UVC video skatītājs"
+
+#: ../data/guvcview.desktop.in.in.h:3
+msgid "A video viewer and capturer for the linux uvc driver"
+msgstr "Video skatītājs un uzņēmējs Linux UVC draiverim"
+
+#: ../src/acodecs.c:59
+msgid "PCM - uncompressed (16 bit)"
+msgstr "PCM - nesaspiests (16 biti)"
+
+#: ../src/acodecs.c:76
+msgid "MPEG2 - (lavc)"
+msgstr "MPEG2 - (lavc)"
+
+#: ../src/acodecs.c:93
+msgid "MP3 - (lavc)"
+msgstr "MP3 - (lavc)"
+
+#: ../src/acodecs.c:110
+msgid "Dolby AC3 - (lavc)"
+msgstr "Dolby AC3 - (lavc)"
+
+#: ../src/acodecs.c:127
+msgid "ACC Low - (faac)"
+msgstr "ACC Low - (faac)"
+
+#: ../src/acodecs.c:144
+msgid "Vorbis"
+msgstr "Vorbis"
+
+#: ../src/audio_tab.c:80
+msgid "Audio"
+msgstr "Skaņa"
+
+#: ../src/audio_tab.c:98
+msgid " Sound"
+msgstr " Skaņa"
+
+#. VU meter on the image (OSD)
+#: ../src/audio_tab.c:109
+msgid " Show VU meter"
+msgstr " Rādīt skaņas līmeņa indikatoru"
+
+#: ../src/audio_tab.c:121
+msgid "Audio API:"
+msgstr "Audio saskarne:"
+
+#: ../src/audio_tab.c:132
+msgid "PORTAUDIO"
+msgstr "PORTAUDIO"
+
+#: ../src/audio_tab.c:133
+msgid "PULSEAUDIO"
+msgstr "PULSEAUDIO"
+
+#: ../src/audio_tab.c:149 ../src/audio_tab.c:172
+msgid "Input Device:"
+msgstr "Ievades ierīce:"
+
+#: ../src/audio_tab.c:182 ../src/audio_tab.c:214
+msgid "Dev. Default"
+msgstr "Izstrādātāja noklusējums"
+
+#: ../src/audio_tab.c:204
+msgid "Sample Rate:"
+msgstr "Nolases biežums:"
+
+#: ../src/audio_tab.c:215
+msgid "1 - mono"
+msgstr "1 - mono"
+
+#: ../src/audio_tab.c:216
+msgid "2 - stereo"
+msgstr "2 - stereo"
+
+#: ../src/audio_tab.c:251
+msgid "Channels:"
+msgstr "Kanāli:"
+
+#: ../src/audio_tab.c:302
+msgid "---- Audio Effects ----"
+msgstr "---- Audio efekti ----"
+
+#. Echo
+#: ../src/audio_tab.c:321
+msgid " Echo"
+msgstr " Atbalss"
+
+#. FUZZ
+#: ../src/audio_tab.c:332
+msgid " Fuzz"
+msgstr " Rācija"
+
+#. Reverb
+#: ../src/audio_tab.c:344
+msgid " Reverb"
+msgstr " Reverbācija"
+
+#. WahWah
+#: ../src/audio_tab.c:356
+msgid " WahWah"
+msgstr " VahVah"
+
+#. Ducky
+#: ../src/audio_tab.c:368
+msgid " Ducky"
+msgstr " Pīle"
+
+#: ../src/callbacks.c:108
+msgid "Error"
+msgstr "Kļūda"
+
+#: ../src/callbacks.c:132
+msgid ""
+"\n"
+"You have more than one video device installed.\n"
+"Do you want to try another one ?\n"
+msgstr ""
+"\n"
+"Ir pieejamas vairākas video ierīces.\n"
+"Vai vēlaties izmēģināt citu?\n"
+
+#. Devices
+#: ../src/callbacks.c:139 ../src/video_tab.c:103
+msgid "Device:"
+msgstr "Ierīce:"
+
+#: ../src/callbacks.c:271
+msgid "Save File"
+msgstr "Saglabāt failu"
+
+#: ../src/callbacks.c:283
+msgid "File Format:"
+msgstr "Faila formāts:"
+
+#: ../src/callbacks.c:454
+msgid "codec values"
+msgstr "kodeka vērtības"
+
+#: ../src/callbacks.c:465
+msgid ""
+"                              encoder fps:   \n"
+" (0 - use fps combobox value)"
+msgstr ""
+
+#: ../src/callbacks.c:478
+msgid " monotonic pts"
+msgstr ""
+
+#. bit rate
+#: ../src/callbacks.c:485 ../src/callbacks.c:808
+msgid "bit rate:   "
+msgstr "bitu ātrums:   "
+
+#: ../src/callbacks.c:498
+msgid "qmax:   "
+msgstr ""
+
+#: ../src/callbacks.c:511
+msgid "qmin:   "
+msgstr ""
+
+#: ../src/callbacks.c:524
+msgid "max. qdiff:   "
+msgstr ""
+
+#: ../src/callbacks.c:537
+msgid "dia size:   "
+msgstr ""
+
+#: ../src/callbacks.c:550
+msgid "pre dia size:   "
+msgstr ""
+
+#: ../src/callbacks.c:563
+msgid "pre me:   "
+msgstr ""
+
+#: ../src/callbacks.c:576
+msgid "pre cmp:   "
+msgstr ""
+
+#: ../src/callbacks.c:589
+msgid "cmp:   "
+msgstr ""
+
+#: ../src/callbacks.c:602
+msgid "sub cmp:   "
+msgstr ""
+
+#: ../src/callbacks.c:615
+msgid "last predictor count:   "
+msgstr ""
+
+#: ../src/callbacks.c:628
+msgid "gop size:   "
+msgstr ""
+
+#: ../src/callbacks.c:641
+msgid "qcompress:   "
+msgstr ""
+
+#: ../src/callbacks.c:654
+msgid "qblur:   "
+msgstr ""
+
+#: ../src/callbacks.c:667
+msgid "subq:   "
+msgstr ""
+
+#: ../src/callbacks.c:680
+msgid "framerefs:   "
+msgstr ""
+
+#: ../src/callbacks.c:693
+msgid "me method:   "
+msgstr ""
+
+#: ../src/callbacks.c:706
+msgid "mb decision:   "
+msgstr ""
+
+#: ../src/callbacks.c:719
+msgid "max B frames:   "
+msgstr ""
+
+#: ../src/callbacks.c:732
+msgid "num threads:   "
+msgstr ""
+
+#: ../src/callbacks.c:795
+msgid "audio codec values"
+msgstr "audio kodeka vērtības"
+
+#. sample format
+#: ../src/callbacks.c:822
+msgid "sample format:   "
+msgstr ""
+
+#: ../src/callbacks.c:1250
+msgid "start new"
+msgstr "sākt jaunu"
+
+#: ../src/callbacks.c:1253
+msgid "restart"
+msgstr "pārstartēt"
+
+#: ../src/callbacks.c:1255
+msgid "new"
+msgstr "jauns"
+
+#: ../src/callbacks.c:1257
+msgid "cancel"
+msgstr "atcelt"
+
+#: ../src/callbacks.c:1262
+msgid ""
+"launch new process or restart?.\n"
+"\n"
+msgstr ""
+"palaist jaunu procesu vai pārstartēt?\n"
+"\n"
+
+#: ../src/callbacks.c:1716 ../src/guvcview.c:537
+msgid "Cap. Image (I)"
+msgstr "Uzņemt attēlu (I)"
+
+#. disable image controls
+#: ../src/callbacks.c:1727 ../src/guvcview.c:658 ../src/timers.c:101
+msgid "capturing photo to"
+msgstr ""
+
+#: ../src/callbacks.c:1786 ../src/guvcview.c:547
+msgid "Cap. Video (V)"
+msgstr "Uzņemt video (V)"
+
+#: ../src/callbacks.c:1812 ../src/guvcview.c:708
+msgid "capturing video to"
+msgstr ""
+
+#. vid capture enabled from start
+#: ../src/callbacks.c:1845 ../src/guvcview.c:542
+msgid "Stop Video (V)"
+msgstr ""
+
+#: ../src/callbacks.c:1901 ../src/menubar.c:66
+msgid "Save Profile"
+msgstr "Saglabāt profilu"
+
+#: ../src/callbacks.c:1914 ../src/menubar.c:65
+msgid "Load Profile"
+msgstr "Ielādēt profilu"
+
+#: ../src/create_video.c:1016 ../src/guvcview.c:700
+msgid "Cap. Video"
+msgstr "Uzņemt video"
+
+#: ../src/guvcview.c:279
+msgid "Guvcview Video Capture"
+msgstr "Guvcview video uzņemšana"
+
+#: ../src/guvcview.c:291
+msgid "GUVCViewer Controls"
+msgstr "GUVCViewer vadīklas"
+
+#. can't open device
+#: ../src/guvcview.c:336
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to open device"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"Neizdevās atvērt ierīci"
+
+#: ../src/guvcview.c:337
+msgid ""
+"Please make sure the camera is connected\n"
+"and that the correct driver is installed."
+msgstr ""
+"Lūdzu, pārliecinieties, vai kamera ir pievienota\n"
+"un pareizais draiveris ir instalēts."
+
+#. uvc extension controls OK, give warning and shutdown (called with --add_ctrls)
+#: ../src/guvcview.c:342
+msgid ""
+"Guvcview:\n"
+"\n"
+"UVC Extension controls"
+msgstr ""
+"Guvcview:\n"
+"\n"
+"UVC paplašinājumu vadīklas"
+
+#: ../src/guvcview.c:343
+msgid "Extension controls were added to the UVC driver"
+msgstr "Paplašinājumu vadīklas tika pievienotas UVC draiverim"
+
+#. uvc extension controls error - EACCES (needs root user)
+#: ../src/guvcview.c:350
+msgid ""
+"Guvcview error:\n"
+"\n"
+"UVC Extension controls"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"UVC paplašinājumu vadīklas"
+
+#: ../src/guvcview.c:351
+msgid ""
+"An error occurred while adding extension\n"
+"controls to the UVC driver\n"
+"Make sure you run guvcview as root (or sudo)."
+msgstr ""
+"Gadījās kļūda, pievienojot paplašinājumu\n"
+"vadīklas UVC draiverim\n"
+"Pārliecinieties, vai guvcview tiek palaists kā root (vai sudo)."
+
+#: ../src/guvcview.c:377 ../src/guvcview.c:455
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Can't set a valid video stream for guvcview"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"Neizdevās iestatīt guvcview derīgu video plūsmu"
+
+#: ../src/guvcview.c:378 ../src/guvcview.c:456
+msgid ""
+"Make sure your device driver is v4l2 compliant\n"
+"and that it is properly installed."
+msgstr ""
+"Lūdzu, pārliecinieties, vai ierīces draiveris ir v4l2 saderīgs\n"
+"un vai tas ir pareizi instalēts."
+
+#: ../src/guvcview.c:400 ../src/guvcview.c:422
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to start with minimum setup"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"Neizdevās sākt ar minimālajiem iestatījumiem"
+
+#: ../src/guvcview.c:401 ../src/guvcview.c:423
+msgid "Please reconnect your camera."
+msgstr "Lūdzu, pārvienojiet kameru."
+
+#: ../src/guvcview.c:430
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Couldn't query device capabilities"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"Neizdevās vaicājums ierīces iespējām"
+
+#: ../src/guvcview.c:431
+msgid "Make sure the device driver supports v4l2."
+msgstr "Pārliecinieties, ka ierīces draiveris atbalsta v4l2."
+
+#: ../src/guvcview.c:435
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Read method error"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"Lasīšanas metodes kļūda"
+
+#: ../src/guvcview.c:436
+msgid "Please try mmap instead (--capture_method=1)."
+msgstr "Lūdzu, mēģiniet mmap, --capture_method=1 vietā."
+
+#: ../src/guvcview.c:444
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to allocate Buffers"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"Neizdevās piešķirt buferi"
+
+#: ../src/guvcview.c:445
+msgid "Please try restarting your system."
+msgstr "Lūdzu, mēģiniet pārstartēt sistēmu."
+
+#: ../src/guvcview.c:490
+msgid "Image Controls"
+msgstr "Attēla vadīklas"
+
+#. image auto capture
+#: ../src/guvcview.c:533
+msgid "Stop Auto (I)"
+msgstr ""
+
+#: ../src/guvcview.c:644
+msgid ""
+"Guvcview error:\n"
+"\n"
+"Unable to create Video Thread"
+msgstr ""
+"Guvcview kļūda:\n"
+"\n"
+"Neizdevās izveidot video dzīslu"
+
+#: ../src/guvcview.c:645
+msgid "Please report it to http://developer.berlios.de/bugs/?group_id=8179"
+msgstr "Lūdzu, paziņojiet http://developer.berlios.de/bugs/?group_id=8179"
+
+#: ../src/img_controls.c:121
+msgid "Auto Focus (continuous)"
+msgstr "Automātisks fokuss (nepārtraukts)"
+
+#: ../src/img_controls.c:122
+msgid "set Focus"
+msgstr "iestatīt fokusu"
+
+#: ../src/image_format.c:35
+msgid "Jpeg (jpg)"
+msgstr "Jpeg (jpg)"
+
+#: ../src/image_format.c:41
+msgid "Bitmap (Bmp)"
+msgstr "Bitmap (Bmp)"
+
+#: ../src/image_format.c:47
+msgid "Portable Network Graphics (Png)"
+msgstr "Portable Network Graphics (Png)"
+
+#: ../src/image_format.c:53
+msgid "Raw Image (raw)"
+msgstr "Raw Image (raw)"
+
+#. controls menu
+#: ../src/menubar.c:64
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: ../src/menubar.c:67
+msgid "Hardware Defaults"
+msgstr "Aparatūras noklusējums"
+
+#: ../src/menubar.c:75
+msgid "Camera Button"
+msgstr "Kameras poga"
+
+#: ../src/menubar.c:79
+msgid "Capture Image"
+msgstr "Uzņemt attēlu"
+
+#: ../src/menubar.c:84
+msgid "Capture Video"
+msgstr "Uzņemt video"
+
+#. video menu
+#: ../src/menubar.c:144 ../src/video_tab.c:87
+msgid "Video"
+msgstr "Video"
+
+#: ../src/menubar.c:145 ../src/menubar.c:231
+msgid "File"
+msgstr "Fails"
+
+#: ../src/menubar.c:146 ../src/menubar.c:232
+msgid "Increment Filename"
+msgstr "Automātiski pieaugošs"
+
+#: ../src/menubar.c:164
+msgid "Video Codec"
+msgstr "Video kodeks"
+
+#: ../src/menubar.c:187
+msgid "Video Codec Properties"
+msgstr "Video kodeka īpašības"
+
+#: ../src/menubar.c:194
+msgid "Audio Codec"
+msgstr "Audio kodeks"
+
+#: ../src/menubar.c:215
+msgid "Audio Codec Properties"
+msgstr "Audio kodeka īpašības"
+
+#. photo menu
+#: ../src/menubar.c:230
+msgid "Photo"
+msgstr "Foto"
+
+#: ../src/options.c:752
+msgid "Prints version"
+msgstr "Izdrukas versija"
+
+#: ../src/options.c:753
+msgid "Displays debug information"
+msgstr "Attēlo atkļūdošanas informāciju"
+
+#: ../src/options.c:754
+msgid "Video Device to use [default: /dev/video0]"
+msgstr "Video ierīce, kuru izmantot [noklusējums: /dev/video0]"
+
+#: ../src/options.c:755
+msgid "Exit after adding UVC extension controls (needs root/sudo)"
+msgstr ""
+"Iziet pēc UVC paplašinājuma vadīklu pievienošanas (nepieciešams root/sudo)"
+
+#: ../src/options.c:756
+msgid "Don't stream video (image controls only)"
+msgstr "Nestraumēt video (tikai attēla vadīklas)"
+
+#: ../src/options.c:757
+msgid "Don't display a GUI"
+msgstr "Neattēlot saskarni"
+
+#: ../src/options.c:758
+msgid "Capture method (1-mmap (default)  2-read)"
+msgstr "Uzņemšanas metode (1-mmap (noklusētais)  2-read)"
+
+#: ../src/options.c:759
+msgid "Configuration file"
+msgstr "Konfigurācijas fails"
+
+#: ../src/options.c:760
+msgid "Hardware accelaration (enable(1) | disable(0))"
+msgstr "Aparatūras paātrinājums (ieslēgts(1) | izslēgts(0))"
+
+#: ../src/options.c:761
+msgid ""
+"Pixel "
+"format(mjpg|jpeg|yuyv|yvyu|uyvy|yyuv|yu12|yv12|nv12|nv21|nv16|nv61|y41p|grey|"
+"y10b|y16 |s501|s505|s508|gbrg|grbg|ba81|rggb|bgr3|rgb3)"
+msgstr ""
+"Pikseļa "
+"formāts(mjpg|jpeg|yuyv|yvyu|uyvy|yyuv|yu12|yv12|nv12|nv21|nv16|nv61|y41p|grey"
+"|y10b|y16 |s501|s505|s508|gbrg|grbg|ba81|rggb|bgr3|rgb3)"
+
+#: ../src/options.c:762
+msgid "Frame size, default: 640x480"
+msgstr "Kadra lielums, noklusējums: 640x480"
+
+#: ../src/options.c:763
+msgid "Image File name"
+msgstr "Attēla faila nosaukums"
+
+#: ../src/options.c:764
+msgid "Image capture interval in seconds"
+msgstr "Attēlu uzņemšanas intervāls sekundēs"
+
+#: ../src/options.c:765
+msgid "Number of Pictures to capture"
+msgstr "Attēlu skaits, cik uzņemt"
+
+#: ../src/options.c:766
+msgid "Video File name (capture from start)"
+msgstr "Video faila nosaukums (uzņemt no sākuma)"
+
+#: ../src/options.c:767
+msgid "Video capture time (in seconds)"
+msgstr "Video uzņemšanas laiks (sekundēs)"
+
+#: ../src/options.c:768
+msgid "Exits guvcview after closing video"
+msgstr "Iziet guvcview pēc video aizvēršanas"
+
+#: ../src/options.c:769
+msgid "Number of initial frames to skip"
+msgstr "Pirmreizējo kadru skaits, ko izlaist"
+
+#: ../src/options.c:770
+msgid "Show FPS value (enable(1) | disable (0))"
+msgstr "Rādīt kadrātruma vērtību (ieslēgts(1) | izslēgts(0))"
+
+#: ../src/options.c:771
+msgid "Load Profile at start"
+msgstr "Ielādēt profilu sākot"
+
+#: ../src/options.c:777
+msgid "- local options"
+msgstr "- lokālās opcijas"
+
+#. gdk_threads_enter();
+#: ../src/timers.c:119
+msgid "Cap. Image"
+msgstr "Uzņemt attēlu"
+
+#: ../src/timers.c:217
+msgid "Guvcview Warning:"
+msgstr "Guvcview brīdinājums:"
+
+#: ../src/timers.c:217
+msgid "Not enough free space left on disk"
+msgstr "Diskā nav pietiekami daudz brīvas vietas"
+
+#: ../src/v4l2_controls.c:711
+msgid "Left"
+msgstr "Pa kreisi"
+
+#: ../src/v4l2_controls.c:712
+msgid "Right"
+msgstr "Pa labi"
+
+#: ../src/v4l2_controls.c:716
+msgid "Down"
+msgstr "Lejup"
+
+#: ../src/v4l2_controls.c:717
+msgid "Up"
+msgstr "Augšup"
+
+#: ../src/v4l2_controls.c:762
+msgid "Off"
+msgstr "Izslēgts"
+
+#: ../src/v4l2_controls.c:762
+msgid "On"
+msgstr "Ieslēgts"
+
+#: ../src/v4l2_controls.c:762
+msgid "Blinking"
+msgstr "Mirgošana"
+
+#: ../src/v4l2_controls.c:762
+msgid "Auto"
+msgstr "Automātiski"
+
+#. turn it into a menu control
+#: ../src/v4l2_controls.c:813
+msgid "8 bit"
+msgstr "8 biti"
+
+#: ../src/v4l2_controls.c:813
+msgid "12 bit"
+msgstr "12 biti"
+
+#: ../src/v4l2_dyna_ctrls.c:96
+msgid "Pan (relative)"
+msgstr "Vert. pagrieziens (relatīvi)"
+
+#: ../src/v4l2_dyna_ctrls.c:109
+msgid "Tilt (relative)"
+msgstr "Horiz. pagrieziens (relatīvi)"
+
+#: ../src/v4l2_dyna_ctrls.c:122
+msgid "Pan Reset"
+msgstr "Vert. pagrieziens, pārstatīt"
+
+#: ../src/v4l2_dyna_ctrls.c:135
+msgid "Tilt Reset"
+msgstr "Horiz. pagrieziens, pārstatīt"
+
+#: ../src/v4l2_dyna_ctrls.c:148
+msgid "Focus (absolute)"
+msgstr "Fokuss (absolūts)"
+
+#: ../src/v4l2_dyna_ctrls.c:161
+msgid "LED1 Mode"
+msgstr "LED1 režīms"
+
+#: ../src/v4l2_dyna_ctrls.c:174
+msgid "LED1 Frequency"
+msgstr "LED1 frekvence"
+
+#: ../src/v4l2_dyna_ctrls.c:187
+msgid "Disable video processing"
+msgstr "Atslēgt video apstrādi"
+
+#: ../src/v4l2_dyna_ctrls.c:200
+msgid "Raw bits per pixel"
+msgstr ""
+
+#. needed only for language files (not used)
+#. V4L2 control strings
+#: ../src/v4l2uvc.c:56
+msgid "User Controls"
+msgstr "Lietotāja vadīklas"
+
+#: ../src/v4l2uvc.c:57
+msgid "Brightness"
+msgstr "Gaišums"
+
+#: ../src/v4l2uvc.c:58
+msgid "Contrast"
+msgstr "Kontrasts"
+
+#: ../src/v4l2uvc.c:59
+msgid "Hue"
+msgstr "Tonis"
+
+#: ../src/v4l2uvc.c:60
+msgid "Saturation"
+msgstr "Piesātinājums"
+
+#: ../src/v4l2uvc.c:61
+msgid "Sharpness"
+msgstr "Asums"
+
+#: ../src/v4l2uvc.c:62
+msgid "Gamma"
+msgstr "Gamma"
+
+#: ../src/v4l2uvc.c:63
+msgid "Backlight Compensation"
+msgstr "Fona apgaismojuma kompensācija"
+
+#: ../src/v4l2uvc.c:64
+msgid "Power Line Frequency"
+msgstr "Līnijas frekvence"
+
+#: ../src/v4l2uvc.c:65
+msgid "Hue, Automatic"
+msgstr "Tonis, automātiski"
+
+#: ../src/v4l2uvc.c:66
+msgid "Focus, Auto"
+msgstr "Fokuss, automātiski"
+
+#: ../src/v4l2uvc.c:67
+msgid "Manual Mode"
+msgstr "Rokas režīms"
+
+#: ../src/v4l2uvc.c:68
+msgid "Auto Mode"
+msgstr "Automātiskais režīms"
+
+#: ../src/v4l2uvc.c:69
+msgid "Shutter Priority Mode"
+msgstr "Aizvara prioritātes režīms"
+
+#: ../src/v4l2uvc.c:70
+msgid "Aperture Priority Mode"
+msgstr "Diafragmas prioritātes režīms"
+
+#: ../src/v4l2uvc.c:71
+msgid "Black Level"
+msgstr "Melnā līmenis"
+
+#: ../src/v4l2uvc.c:72
+msgid "White Balance, Automatic"
+msgstr "Baltās krāsas līdzsvars, automātiski"
+
+#: ../src/v4l2uvc.c:73
+msgid "Do White Balance"
+msgstr ""
+
+#: ../src/v4l2uvc.c:74
+msgid "Red Balance"
+msgstr "Sarkanais līdzsvars"
+
+#: ../src/v4l2uvc.c:75
+msgid "Blue Balance"
+msgstr "Zilais līdzsvars"
+
+#: ../src/v4l2uvc.c:76
+msgid "Exposure"
+msgstr "Ekspozīcija"
+
+#: ../src/v4l2uvc.c:77
+msgid "Gain, Automatic"
+msgstr "Pieaugums, automātiski"
+
+#: ../src/v4l2uvc.c:78
+msgid "Gain"
+msgstr "Pieaugums"
+
+#: ../src/v4l2uvc.c:79
+msgid "Horizontal Flip"
+msgstr "Horizontāli apgriezts"
+
+#: ../src/v4l2uvc.c:80
+msgid "Vertical Flip"
+msgstr "Vertikāli apgriezts"
+
+#: ../src/v4l2uvc.c:81
+msgid "Horizontal Center"
+msgstr "Horizontāli centrā"
+
+#: ../src/v4l2uvc.c:82
+msgid "Vertical Center"
+msgstr "Vertikāli centrā"
+
+#: ../src/v4l2uvc.c:83
+msgid "Chroma AGC"
+msgstr ""
+
+#: ../src/v4l2uvc.c:84
+msgid "Color Killer"
+msgstr "Krāsu slepkava"
+
+#: ../src/v4l2uvc.c:85
+msgid "Color Effects"
+msgstr "Krāsu efekti"
+
+#. CAMERA CLASS control strings
+#: ../src/v4l2uvc.c:88
+msgid "Camera Controls"
+msgstr "Kameras vadīklas"
+
+#: ../src/v4l2uvc.c:89
+msgid "Auto Exposure"
+msgstr "Automātiska ekspozīcija"
+
+#: ../src/v4l2uvc.c:90
+msgid "Exposure Time, Absolute"
+msgstr "Ekspozīcijas laiks, absolūts"
+
+#: ../src/v4l2uvc.c:91
+msgid "Exposure, Dynamic Framerate"
+msgstr "Ekspozīcija, dinamisks kadrātrums"
+
+#: ../src/v4l2uvc.c:92
+msgid "Pan, Relative"
+msgstr "Vert. pagrieziens, relatīvi"
+
+#: ../src/v4l2uvc.c:93
+msgid "Tilt, Relative"
+msgstr "Horiz. pagrieziens, relatīvi"
+
+#: ../src/v4l2uvc.c:94
+msgid "Pan, Reset"
+msgstr "Vert. pagrieziens, pārstatīt"
+
+#: ../src/v4l2uvc.c:95
+msgid "Tilt, Reset"
+msgstr "Horiz. pagrieziens, pārstatīt"
+
+#: ../src/v4l2uvc.c:96
+msgid "Pan, Absolute"
+msgstr "Vert. pagrieziens, absolūti"
+
+#: ../src/v4l2uvc.c:98
+msgid "Focus, Absolute"
+msgstr "Fokuss, absolūts"
+
+#: ../src/v4l2uvc.c:99
+msgid "Focus, Relative"
+msgstr "Fokuss, relatīvs"
+
+#: ../src/v4l2uvc.c:100
+msgid "Focus, Automatic"
+msgstr "Fokuss, automātiski"
+
+#: ../src/v4l2uvc.c:101
+msgid "Zoom, Absolute"
+msgstr "Mērogošana, absolūta"
+
+#: ../src/v4l2uvc.c:102
+msgid "Zoom, Relative"
+msgstr "Mērogošana, relatīva"
+
+#: ../src/v4l2uvc.c:103
+msgid "Zoom, Continuous"
+msgstr "Mērogošana, nepārtraukta"
+
+#: ../src/v4l2uvc.c:104
+msgid "Privacy"
+msgstr "Privātums"
+
+#. UVC specific control strings
+#: ../src/v4l2uvc.c:107
+msgid "Exposure, Auto"
+msgstr "Ekspozīcija"
+
+#: ../src/v4l2uvc.c:108
+msgid "Exposure, Auto Priority"
+msgstr "Ekspozīcija, automātiska prioritāte"
+
+#: ../src/v4l2uvc.c:109
+msgid "Exposure (Absolute)"
+msgstr "Ekspozīcija (absolūta)"
+
+#: ../src/v4l2uvc.c:110
+msgid "White Balance Temperature, Auto"
+msgstr "Baltās krāsas līdzsvars, automātiski"
+
+#: ../src/v4l2uvc.c:111
+msgid "White Balance Temperature"
+msgstr "Baltās krāsas līdzsvars"
+
+#: ../src/v4l2uvc.c:112
+msgid "White Balance Component, Auto"
+msgstr "Baltās krāsas līdzsvara komponents, automātiski"
+
+#: ../src/v4l2uvc.c:113
+msgid "White Balance Blue Component"
+msgstr "Baltās krāsas līdzsvara zilais komponents"
+
+#: ../src/v4l2uvc.c:114
+msgid "White Balance Red Component"
+msgstr "Baltās krāsas līdzsvara sarkanais komponents"
+
+#. libwebcam specific control strings
+#: ../src/v4l2uvc.c:117
+msgid "Focus"
+msgstr "Fokuss"
+
+#: ../src/v4l2uvc.c:118
+msgid "Focus (Absolute)"
+msgstr "Fokuss (absolūts)"
+
+#: ../src/vcodecs.c:63
+msgid "MJPG - compressed"
+msgstr "MJPG - saspiests"
+
+#: ../src/vcodecs.c:99
+msgid "YUY2 - uncomp YUV"
+msgstr "YUY2 - nesaspiests YUV"
+
+#: ../src/vcodecs.c:135
+msgid "RGB - uncomp BMP"
+msgstr "RGB - nesaspiests BMP"
+
+#: ../src/vcodecs.c:171
+msgid "MPEG video 1"
+msgstr "MPEG video 1"
+
+#: ../src/vcodecs.c:207
+msgid "FLV1 - flash video 1"
+msgstr "FLV1 - flash video 1"
+
+#: ../src/vcodecs.c:243
+msgid "WMV1 - win. med. video 7"
+msgstr "WMV1 - win. med. video 7"
+
+#: ../src/vcodecs.c:279
+msgid "MPG2 - MPG2 format"
+msgstr "MPG2 - MPG2 formāts"
+
+#: ../src/vcodecs.c:315
+msgid "MS MP4 V3"
+msgstr "MS MP4 V3"
+
+#: ../src/vcodecs.c:351
+msgid "MPEG4-ASP"
+msgstr "MPEG4-ASP"
+
+#: ../src/vcodecs.c:387
+msgid "MPEG4-AVC (H264)"
+msgstr "MPEG4-AVC (H264)"
+
+#: ../src/vcodecs.c:427
+msgid "VP8 (VP8)"
+msgstr "VP8 (VP8)"
+
+#: ../src/vcodecs.c:463
+msgid "Theora (ogg theora)"
+msgstr "Theora (ogg theora)"
+
+#: ../src/video_format.c:43
+msgid "AVI - avi format"
+msgstr "AVI - avi formāts"
+
+#: ../src/video_format.c:52
+msgid "MKV - Matroska format"
+msgstr "MKV - Matroska formāts"
+
+#: ../src/video_format.c:61
+msgid "WEBM - format"
+msgstr "WEBM - formāts"
+
+#: ../src/video_tab.c:208
+msgid "Frame Rate:"
+msgstr "Kadru ātrums:"
+
+#: ../src/video_tab.c:215
+msgid " Show"
+msgstr " Rādīt"
+
+#: ../src/video_tab.c:237
+msgid "Resolution:"
+msgstr "Izšķirtspēja:"
+
+#: ../src/video_tab.c:263
+msgid "Camera Output:"
+msgstr "Kameras izvade:"
+
+#: ../src/video_tab.c:285
+msgid "Apply"
+msgstr "Pielietot"
+
+#: ../src/video_tab.c:292
+msgid "Quality:"
+msgstr "Kvalitāte:"
+
+#: ../src/video_tab.c:302
+msgid "---- Video Filters ----"
+msgstr "---- Video filtri ----"
+
+#. Mirror
+#: ../src/video_tab.c:321
+msgid " Mirror"
+msgstr " Spogulis"
+
+#. Upturn
+#: ../src/video_tab.c:332
+msgid " Invert"
+msgstr " Invertēt"
+
+#. Negate
+#: ../src/video_tab.c:343
+msgid " Negative"
+msgstr " Negatīvs"
+
+#. Mono
+#: ../src/video_tab.c:354
+msgid " Mono"
+msgstr " Melnbalts"
+
+#. Pieces
+#: ../src/video_tab.c:366
+msgid " Pieces"
+msgstr " Mozaīka"
+
+#. Particles
+#: ../src/video_tab.c:378
+msgid " Particles"
+msgstr " Daļiņas"
